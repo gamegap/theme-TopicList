@@ -1,0 +1,47 @@
+.main-link{
+    padding: 0px 10px 0px 0px !important;
+    position:relative;
+}
+
+.titleTopic:not(.has-excerpt) {
+    height: 90px;
+    padding: 0px !important;
+}
+
+td.main-link.clearfix a.title {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+span.topic-post-badges {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+tr.topic-list-item .clearfix a:hover {
+    background-color: #F0F0F0;
+}
+
+tr.topic-list-item .clearfix:hover .topic-thumbnail {
+    filter: contrast(1);
+}
+
+tr.topic-list-item .clearfix a:not(.badge-wrapper) {
+    height: 65px;
+    display: block;
+}
+
+.topic-list .main-link a.title {
+    padding: 15px 0px;
+}
+
+.topic-thumbnail{
+    float: right;
+    margin-right: 20px;
+    filter: brightness(0.6);
+}
+
+td.category, th.category{
+    display: none;
+}
